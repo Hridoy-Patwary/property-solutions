@@ -68,7 +68,9 @@ header nav{
 
 /* ---------------- hero section ---------------- */
 #hero{
-    height: 500px;
+    height: 35vw;
+    min-height: 350px;
+    max-height: 800px;
     background-image: linear-gradient(#1b130eb3, #1b130e61), url('./assets/hero-banner.jpeg');
     background-size: cover;
 }
@@ -78,6 +80,10 @@ header nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.hero-content-container{
+    padding-bottom: 50px;
 }
 
 .hero-content-container h1{
