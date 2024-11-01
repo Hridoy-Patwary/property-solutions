@@ -259,7 +259,7 @@ header .header-menu input:checked~span:nth-last-child(3) {
     margin-bottom: 10px;
 }
 
-#our-work .container a{
+#our-work .container a.get-started-today{
     margin: 15px auto 30px auto;
 }
 
@@ -429,12 +429,16 @@ footer .footer-right .socials ul li a i{
     #services .services-grid .service-box, #our-work .boxes-grid, footer .container{
         grid-template-columns: 1fr;
     }
+    #services .services-grid img{
+        max-height: 200px;
+    }
     #services .services-grid .service-box .service-about{
         padding: 10px;
         padding-top: 0;
     }
     #our-work .bottom-btns, #features .features-list{
         flex-direction: column;
+        gap: 15px;
     }
     #features .features-list{
         gap: 20px
@@ -464,8 +468,10 @@ footer .footer-right .socials ul li a i{
     }
     .hero-content-container .hero-sec-btns{
         flex-direction: column;
+        gap: 15px;
     }
     #contact .bottom-btns{
         flex-direction: column;
+        gap: 15px;
     }
 }
